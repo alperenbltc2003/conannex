@@ -1,0 +1,26 @@
+input{
+    border: none;
+    border-bottom: 2px solid rgb(248, 10, 10);
+    display: inline-block;
+  } 
+  input:focus{
+    border: none;
+    border-bottom: 5px solid rgb(255, 0, 13);background-color:#e6baadf5;
+  } 
+  input[type=submit] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    border-radius: 4px
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  body {
+    background-image: url('arka.png');
+  }
+ 

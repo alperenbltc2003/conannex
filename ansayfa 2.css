@@ -1,0 +1,143 @@
+html{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image:url("arkaplan.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0;
+    padding:0;
+}
+#main{
+    position: relative;
+    margin: 0;;
+    padding: 0;
+    background-color: black;;
+    display: block;
+    top: 0px;
+    height: 50px;
+
+}
+.menubtn{
+    display: inline-block;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    width: 16.4%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    background-color:black;
+    text-align: center;
+}
+a:hover{
+    color:black;
+    background-color: white;
+}
+#gamedrop{
+    position:absolute;
+    display:none;
+    background-color: black;
+    width: 200px;
+    left:380px;
+    top:50px;
+}
+#gameid:hover+#gamedrop,#gamedrop:hover{
+    display: inline-block;
+
+}
+.gamedropa{
+    display: block;
+    height:50px;
+    line-height: 50px;
+}
+
+makaleler
+
+#makaledrop{
+    position:absolute;
+    display:none;
+    background-color: black;
+    width: 200px;
+    left:380px;
+    top:50px;
+}
+#makaleid:hover+#makaledrop,#makaledrop:hover{
+    display: inline-block;
+
+}
+.makaledropa{
+    display: block;
+    height:50px;
+    line-height: 50px;
+}
+#makaledrop{
+    position:absolute;
+    display:none;
+    background-color: black;
+    width: 200px;
+    left:700px;
+    top:50px;
+}
+
+UYELİK
+
+#uyelikdrop{
+    position:absolute;
+    display:none;
+    background-color: black;
+    width: 200px;
+    left:380px;
+    top:50px;
+}
+#uyelikid:hover+#uyelikdrop,#uyelikdrop:hover{
+    display: inline-block;
+
+}
+.uyelikdropa{
+    display: block;
+    height:50px;
+    line-height: 50px;
+}
+#uyelikdrop{
+    position:absolute;
+    display:none;
+    background-color: black;
+    width: 200px;
+    left:1020px;
+    top:50px;
+}
+
+FİLMLER
+
+#filmdrop{
+    position:absolute;
+    display:none;
+    background-color: black;
+    width: 200px;
+    left:380px;
+    top:50px;
+}
+#filmid:hover+#filmdrop,#filmdrop:hover{
+    display: inline-block;
+
+}
+.filmdropa{
+    display: block;
+    height:50px;
+    line-height: 50px;
+}
+#filmdrop{
+    position:absolute;
+    display:none;
+    background-color: black;
+    width: 200px;
+    left:1340px;
+    top:50px;
+}

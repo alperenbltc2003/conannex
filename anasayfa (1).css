@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css2);
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    
+}
+ul#main li {
+    float: left;
+    position: relative;
+    width: 175px;
+    
+
+}
+ul#main li ul {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top:40px
+
+}
+ul li a{
+    display: block;
+    width: 175px; 
+    height: 60px;
+    background-color: black;
+    text-align: center;
+    color:blanchedalmond;
+    text-decoration: none;
+    line-height: 60px;
+}
+ul li a:hover{
+    background-color: rgb(29, 4, 53);
+}
+ul#main li:hover ul{
+    display: block;
+}
+body {
+    background-image: url('arka.png');
+    background-size:contain;
+}
+#avax {
+    height: 145px;
+    width: 240px;
+    position: relative;
+}
+#hot {
+    height: 145px;
+    width: 240px;
+    position: relative;
+    
+}
+#sand {
+    height: 145px;
+    width: 240px;
+    position: relative;
+   
+}
+#doge {
+    height: 145px;
+    width: 240px;
+    position: relative;
+   
+}
+#bitcoin {
+    height: 145px;
+    width: 240px;
+    position: relative;
+ 
+}
+#tldoge {
+    position: relative;
+    left: 200p
+    
+}
+#tlbitcoin {
+    position: relative;
+    left: 200p
+    
+}
+#grafikcontainer{
+    position:relative;
+    width:100%;
+    margin:0;
+    padding:0;
+    
+}
+.grafikler{
+    margin:0;
+    padding:0;
+    display: inline-block;
+
+}
+#tablo{
+    margin:0;
+    padding:0;
+}
